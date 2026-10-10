@@ -9,5 +9,5 @@ workflows:
           unzip -o mutajri_android_v4.zip
           cd mutajri_android_v4
           gradle assembleDebug  
-  artifacts:
+    artifacts:
       - "**/*.apk"
